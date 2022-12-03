@@ -1,0 +1,53 @@
+.description-greece{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../../img/constantinos-kollias-yqBvJJ8jGBQ-unsplash.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    
+    
+    
+}
+
+.content{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.content h2{
+    margin-bottom: 2rem;
+}
+
+.content p{
+margin-bottom:1.4rem ;
+}
+
+.content a{
+    padding:1rem 4rem;
+    background-color: #3a6ac3;
+    color: white;
+    border-radius: 50px;
+}
+
+@media (max-width:600px) {
+    .content{
+        width: 260px;
+        height: 260px;
+    }
+    .content h2{
+        margin-bottom: 10px;
+    }
+    .content p{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .content a{
+        padding: .90rem 2rem;
+    }
+}

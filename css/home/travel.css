@@ -1,0 +1,42 @@
+.travel{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.travel .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+
+}
+.grid .box{
+    padding: 4rem 2rem;
+    background: #3a6ac3;
+    text-align: center;
+    color: #fff;
+}
+.grid .box i{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.grid .box h3{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:1006px) {
+   .travel .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:538px) {
+    .travel .grid{
+        grid-template-columns: 1fr;
+    }
+}

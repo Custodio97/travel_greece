@@ -1,0 +1,39 @@
+.home{
+    background-image: url("../../img/jonathan-gallegos-_vA2q0-NroU-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+.home p{
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    
+}
+
+.home h1{
+    margin-bottom:1.3rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #3a6ac3;
+}
+.home a{
+    padding: .60rem 6rem;
+    border-radius: 50px;
+    background: #3a6ac3;
+    color: #fff;
+}
+.home a:hover{
+    border: 1px solid #3a6ac3;
+    background: #fff;
+    color: #3a6ac3;
+}
+
+@media (max-width:600px) {
+    .home{
+        background-position: left;
+    }
+}

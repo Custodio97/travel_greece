@@ -1,0 +1,18 @@
+/*Global*/
+@import "./global/reset.css";
+@import "./global/navbar.css";
+
+/*Home*/
+@import "./home/home.css";
+@import "./home/travel.css";
+@import "./global/footer.css";
+
+/*About*/
+@import "./about/greece.css";
+@import "./about/about.css";
+
+/*Description*/
+@import "./description/description_greece.css";
+
+/*Contact*/
+@import "./contatc/contact.css";
